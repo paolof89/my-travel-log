@@ -4,7 +4,7 @@
 
 'use strict';
 
-const CACHE_NAME = 'my-travel-log-v4';
+const CACHE_NAME = 'my-travel-log-v5';
 
 // App shell: files needed for the site to boot offline.
 // All paths are relative to the service worker's scope.
@@ -22,6 +22,7 @@ const APP_SHELL = [
   './data/trips/index.json',
   './data/trips/korea-2026.json',
   './data/trips/china-2025.json',
+  './data/trips/ValTournanches-2026.json',
 ];
 
 self.addEventListener('install', (event) => {

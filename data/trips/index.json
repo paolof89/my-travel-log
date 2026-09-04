@@ -15,6 +15,14 @@
       "endDate": "2025-09-07",
       "summary": "Hong Kong, Guilin, Chongqing, Chengdu, Xi'an, Dengfeng, Shanghai, Tai'an, Pechino.",
       "dataUrl": "./data/trips/china-2025.json"
+    },
+    {
+      "id": "valle-aosta-2026",
+      "title": "Valtournenche 2026",
+      "startDate": "2026-09-05",
+      "endDate": "2026-09-06",
+      "summary": "Chamois e Valtournenche in Valle d'Aosta.",
+      "dataUrl": "./data/trips/ValTournanches-2026.json"
     }
   ]
 }
