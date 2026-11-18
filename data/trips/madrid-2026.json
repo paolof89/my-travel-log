@@ -308,7 +308,7 @@
       "dayNumber": 2,
       "date": "2026-11-22",
       "city": "Madrid",
-      "summary": "Rastro, Prado, pranzo al Barrio de las Letras, Retiro al tramonto, cena vegana a Malasaña",
+      "summary": "Rastro, Prado, pranzo al Barrio de las Letras, Retiro, aperitivo all'Azotea del Círculo, Gran Vía e Fuencarral, cena vegana a Malasaña",
       "transferSummary": null,
       "detailStatus": "transcribed",
       "items": [
@@ -467,32 +467,66 @@
           ]
         },
         {
-          "id": "2026-11-22-rientro-hotel-domenica",
-          "time": "18:15",
-          "type": "transport",
-          "title": "Retiro → hotel",
-          "description": "Metro linea 2 da Retiro verso Sol, poi a piedi; in alternativa passeggiata di circa 30 minuti lungo Alcalá e Gran Vía.",
-          "durationMinutes": 25,
-          "cost": null,
+          "id": "2026-11-22-azotea-circulo-bellas-artes",
+          "time": "18:30",
+          "type": "visit",
+          "title": "Aperitivo all'Azotea del Círculo de Bellas Artes",
+          "description": "Terrazza panoramica a 56 metri, coronata dalla statua di Minerva, con vista su Gran Vía e Calle de Alcalá illuminate per Natale. Ingresso a pagamento, bevande a parte. Aperta tutti i giorni dalla tarda mattinata fino a tarda sera.",
+          "durationMinutes": 60,
+          "cost": {
+            "amount": 6,
+            "currency": "EUR",
+            "display": "€6",
+            "estimated": true
+          },
           "status": "transcribed",
           "location": {
-            "name": "7 Islas Hotel",
+            "name": "Azotea del Círculo de Bellas Artes",
             "city": "Madrid",
             "country": "Spagna",
             "latitude": null,
             "longitude": null,
-            "googleMapsQuery": "7 Islas Hotel, Calle de Valverde 14, Madrid",
+            "googleMapsQuery": "Azotea Círculo de Bellas Artes, Calle de Alcalá 42, Madrid",
             "naverMapsUrl": null,
             "verificationStatus": "unverified"
           },
           "transferFromPrevious": {
-            "mode": "subway",
-            "durationMinutes": 25,
-            "line": "2",
-            "estimated": true,
+            "mode": "walk",
+            "durationMinutes": 15,
+            "notes": "Uscita dal Retiro alla Puerta de Alcalá, poi giù per Calle de Alcalá. L'ingresso è in Calle Marqués de Casa Riera 2."
+          },
+          "notes": [
+            "Biglietto acquistabile in biglietteria al piano terra o sul sito del Círculo.",
+            "L'ingresso alla terrazza non garantisce un tavolo al bar."
+          ]
+        },
+        {
+          "id": "2026-11-22-gran-via-fuencarral",
+          "time": "19:30",
+          "type": "market",
+          "title": "Passeggiata su Gran Vía e shopping in Calle Fuencarral",
+          "description": "Gran Vía illuminata fino a Plaza de Callao, poi Calle Fuencarral, pedonale e piena di negozi, verso Malasaña. Ultima tappa in Plaza del Dos de Mayo prima di cena.",
+          "durationMinutes": 60,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Calle de Fuencarral",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Calle de Fuencarral, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 5,
             "notes": null
           },
-          "notes": []
+          "notes": [
+            "Orari di apertura domenicali dei singoli negozi da verificare."
+          ]
         },
         {
           "id": "2026-11-22-cena-vega-luna",
@@ -516,7 +550,7 @@
           "transferFromPrevious": {
             "mode": "walk",
             "durationMinutes": 5,
-            "notes": null
+            "notes": "Da Plaza del Dos de Mayo."
           },
           "notes": [
             "Orari da fonte web non recente (domenica orario continuato 13:30–24:00): verificare e prenotare.",
@@ -800,32 +834,32 @@
       "dayNumber": 4,
       "date": "2026-11-24",
       "city": "Madrid",
-      "summary": "Gran Vía e terrazza del Círculo de Bellas Artes, check-out e volo di rientro",
+      "summary": "Shopping a Malasaña, check-out e volo di rientro",
       "transferSummary": "Madrid-Barajas → aereo → Milano Malpensa",
       "detailStatus": "transcribed",
       "items": [
         {
-          "id": "2026-11-24-gran-via-circulo-bellas-artes",
+          "id": "2026-11-24-shopping-malasana",
           "time": "10:00",
-          "type": "visit",
-          "title": "Gran Vía e terrazza del Círculo de Bellas Artes",
-          "description": "Ultima passeggiata su Gran Vía fino all'edificio Metrópolis; vista sui tetti dalla terrazza del Círculo de Bellas Artes, in Calle de Alcalá.",
-          "durationMinutes": 75,
+          "type": "market",
+          "title": "Shopping vintage e design a Malasaña",
+          "description": "Ultimo giro nelle vie di negozi indipendenti, vintage e design vicino all'hotel: Calle de Velarde, Calle del Espíritu Santo e la zona di Conde Duque.",
+          "durationMinutes": 90,
           "cost": null,
-          "status": "uncertain",
+          "status": "transcribed",
           "location": {
-            "name": "Círculo de Bellas Artes",
+            "name": "Calle de Velarde",
             "city": "Madrid",
             "country": "Spagna",
             "latitude": null,
             "longitude": null,
-            "googleMapsQuery": "Azotea Círculo de Bellas Artes, Madrid",
+            "googleMapsQuery": "Calle de Velarde, Malasaña, Madrid",
             "naverMapsUrl": null,
             "verificationStatus": "unverified"
           },
           "transferFromPrevious": null,
           "notes": [
-            "Ingresso alla terrazza a pagamento; orari di apertura mattutina da verificare."
+            "Molti negozi indipendenti aprono verso le 10:30–11:00."
           ]
         },
         {

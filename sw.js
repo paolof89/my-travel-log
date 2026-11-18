@@ -4,7 +4,7 @@
 
 'use strict';
 
-const CACHE_NAME = 'my-travel-log-v6';
+const CACHE_NAME = 'my-travel-log-v7';
 
 // App shell: files needed for the site to boot offline.
 // All paths are relative to the service worker's scope.
