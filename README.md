@@ -11,6 +11,7 @@ Nessun framework, nessun backend, nessuna dipendenza esterna. Vedi
 
 - **Corea 2026** (26 luglio – 13 agosto 2026) — `data/trips/korea-2026.json`
 - **Cina 2025** (19 agosto – 7 settembre 2025) — `data/trips/china-2025.json`
+- **Madrid 2026** (21 – 24 novembre 2026) — `data/trips/madrid-2026.json`
 
 ## Stato attuale
 

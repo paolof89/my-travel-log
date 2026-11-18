@@ -23,6 +23,14 @@
       "endDate": "2026-09-06",
       "summary": "Chamois e Valtournenche in Valle d'Aosta.",
       "dataUrl": "./data/trips/ValTournanches-2026.json"
+    },
+    {
+      "id": "madrid-2026",
+      "title": "Madrid 2026",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-24",
+      "summary": "Madrid: luci di Natale a Cibeles, Rastro, Prado, Retiro, Palacio Real, Templo de Debod.",
+      "dataUrl": "./data/trips/madrid-2026.json"
     }
   ]
 }

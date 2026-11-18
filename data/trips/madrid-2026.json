@@ -1,0 +1,916 @@
+{
+  "trip": {
+    "id": "madrid-2026",
+    "title": "Madrid 2026",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-24",
+    "timezone": "Europe/Madrid",
+    "lastUpdated": "2026-11-18",
+    "contentStatus": "complete"
+  },
+  "food": {
+    "dishes": [
+      {
+        "id": "dish-tortilla-de-patatas",
+        "name": "Tortilla de patatas",
+        "description": "Frittata alta di patate e uova, spesso con cipolla; si trova in quasi ogni bar, anche a fette come tapa.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-patatas-bravas",
+        "name": "Patatas bravas",
+        "description": "Patate fritte a cubetti con salsa brava piccante, a volte anche con alioli; tapa classica dei bar madrileni.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-pimientos-de-padron",
+        "name": "Pimientos de Padrón",
+        "description": "Piccoli peperoni verdi fritti e salati, originari della Galizia; ogni tanto ne capita uno piccante.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-berenjenas-con-miel",
+        "name": "Berenjenas con miel",
+        "description": "Melanzane fritte servite con melassa di canna o miele, di origine andalusa e diffuse nei bar di tapas.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-huevos-rotos",
+        "name": "Huevos rotos",
+        "description": "Uova fritte rotte sopra patate fritte; di solito con jamón o chorizo, ma si può chiedere la versione solo con patate o con peperoni.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-pisto",
+        "name": "Pisto",
+        "description": "Stufato di verdure (pomodoro, peperoni, zucchine, cipolla) della tradizione della Mancha, spesso servito con un uovo.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-churros-con-chocolate",
+        "name": "Churros con chocolate",
+        "description": "Bastoncini di pasta fritta da intingere nella cioccolata calda densa; a Madrid classici da San Ginés, anche a tarda sera.",
+        "status": "transcribed",
+        "food-type": "vegetarian"
+      },
+      {
+        "id": "dish-cocido-madrileno",
+        "name": "Cocido madrileño",
+        "description": "Bollito di ceci con carni, chorizo e verdure, servito in più portate: prima il brodo, poi ceci, verdure e carni.",
+        "status": "transcribed",
+        "food-type": "classic"
+      },
+      {
+        "id": "dish-bocadillo-de-calamares",
+        "name": "Bocadillo de calamares",
+        "description": "Panino con anelli di calamaro fritti, tipico dei bar intorno a Plaza Mayor.",
+        "status": "transcribed",
+        "food-type": "classic"
+      },
+      {
+        "id": "dish-callos-a-la-madrilena",
+        "name": "Callos a la madrileña",
+        "description": "Trippa stufata con chorizo, morcilla e paprika, piatto tradizionale delle taverne.",
+        "status": "transcribed",
+        "food-type": "classic"
+      },
+      {
+        "id": "dish-soldaditos-de-pavia",
+        "name": "Soldaditos de Pavía",
+        "description": "Bastoncini di baccalà in pastella fritti, specialità storica di Casa Labra vicino a Sol.",
+        "status": "transcribed",
+        "food-type": "classic"
+      },
+      {
+        "id": "dish-croquetas",
+        "name": "Croquetas",
+        "description": "Crocchette di besciamella fritte, classiche al prosciutto o al baccalà; esistono anche versioni ai funghi o al formaggio.",
+        "status": "transcribed",
+        "food-type": "classic"
+      }
+    ],
+    "cities": [
+      {
+        "id": "city-madrid",
+        "name": "Madrid",
+        "itineraryCityNames": [
+          "Madrid"
+        ],
+        "dishIds": [
+          "dish-tortilla-de-patatas",
+          "dish-patatas-bravas",
+          "dish-pimientos-de-padron",
+          "dish-berenjenas-con-miel",
+          "dish-huevos-rotos",
+          "dish-pisto",
+          "dish-churros-con-chocolate",
+          "dish-cocido-madrileno",
+          "dish-bocadillo-de-calamares",
+          "dish-callos-a-la-madrilena",
+          "dish-soldaditos-de-pavia",
+          "dish-croquetas"
+        ]
+      }
+    ]
+  },
+  "days": [
+    {
+      "id": "2026-11-21",
+      "dayNumber": 1,
+      "date": "2026-11-21",
+      "city": "Madrid",
+      "summary": "Volo per Madrid, check-in in hotel, luci di Natale tra Gran Vía e Cibeles, cena vegetariana vicino a Sol",
+      "transferSummary": "Milano Malpensa → aereo → Madrid-Barajas",
+      "detailStatus": "transcribed",
+      "items": [
+        {
+          "id": "2026-11-21-volo-mxp-mad",
+          "time": "15:50",
+          "type": "transport",
+          "title": "Volo Air Europa UX1060 Milano Malpensa → Madrid",
+          "description": "Partenza da Malpensa T1, arrivo a Madrid-Barajas T2 alle 18:10 (ora locale). Solo bagaglio a mano: 1 trolley 10 kg (55×35×25 cm) + 1 accessorio 4 kg (40×30×15 cm) a testa, stiva non inclusa.",
+          "durationMinutes": 140,
+          "cost": null,
+          "status": "confirmed",
+          "location": {
+            "name": "Aeroporto di Milano Malpensa Terminal 1",
+            "city": "Ferno",
+            "country": "Italia",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Aeroporto Milano Malpensa Terminal 1",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": null,
+          "notes": [
+            "Check-in online sul sito Air Europa a partire da 48 ore prima.",
+            "Volo operato da Air Europa Express."
+          ]
+        },
+        {
+          "id": "2026-11-21-check-in-7-islas",
+          "time": "19:20",
+          "type": "hotel",
+          "title": "Check-in 7 Islas Hotel",
+          "description": "Calle de Valverde 14, a due passi da Gran Vía. Lasciare i trolley prima di andare alle luci.",
+          "durationMinutes": 20,
+          "cost": null,
+          "status": "confirmed",
+          "location": {
+            "name": "7 Islas Hotel",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "7 Islas Hotel, Calle de Valverde 14, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "subway",
+            "durationMinutes": 40,
+            "line": "8 → 10",
+            "from": {
+              "name": "Aeropuerto T1-T2-T3"
+            },
+            "to": {
+              "name": "Tribunal"
+            },
+            "estimated": true,
+            "notes": "Da T2 metro linea 8 fino a Nuevos Ministerios, cambio sulla linea 10 fino a Tribunal, poi circa 5 minuti a piedi. Il biglietto dall'aeroporto include un supplemento. Alternativa: taxi a tariffa fissa per il centro, ma la sera dell'accensione le strade attorno a Cibeles sono congestionate."
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-21-luci-natale-gran-via-cibeles",
+          "time": "19:45",
+          "type": "visit",
+          "title": "Luci di Natale: Gran Vía → Calle de Alcalá → Cibeles",
+          "description": "Accensione ufficiale dell'illuminazione natalizia alle 19:00 in Plaza de Cibeles, con spettacolo. Si arriva a cerimonia in corso o appena finita: il bello è la passeggiata lungo Gran Vía e Alcalá appena illuminate.",
+          "durationMinutes": 60,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Plaza de Cibeles",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Plaza de Cibeles, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 20,
+            "notes": "Scendere Gran Vía fino all'incrocio con Calle de Alcalá e proseguire fino a Cibeles (circa 1,5 km)."
+          },
+          "notes": [
+            "Folla molto numerosa: evitare la metro Banco de España.",
+            "Tenere borse e telefoni davanti a sé."
+          ]
+        },
+        {
+          "id": "2026-11-21-albero-puerta-del-sol",
+          "time": "20:45",
+          "type": "visit",
+          "title": "Albero di Natale in Puerta del Sol",
+          "description": "Rientro ad anello verso Sol percorrendo Calle de Alcalá.",
+          "durationMinutes": 15,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Puerta del Sol",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Puerta del Sol, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 15,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-21-cena-yerbabuena",
+          "time": "21:00",
+          "type": "meal",
+          "title": "Cena vegetariana: Yerbabuena",
+          "description": "Ristorante vegetariano storico (anche molte opzioni vegane) dietro Plaza Mayor, cucina casalinga e creativa, porzioni abbondanti. Fascia di prezzo indicativa 16–30 € a persona.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Yerbabuena",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Yerbabuena, Calle de Bordadores 3, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 5,
+            "notes": null
+          },
+          "notes": [
+            "Orari indicativi sabato sera 20:00–23:30 (fonti web): prenotare.",
+            "Chiuso il lunedì e la domenica sera: sabato è la serata giusta.",
+            "Da provare il tiramisù vegano."
+          ]
+        },
+        {
+          "id": "2026-11-21-churros-san-gines",
+          "time": "23:00",
+          "type": "optional",
+          "title": "Cioccolata e churros da San Ginés (opzionale)",
+          "description": "Chocolatería storica a pochi metri da Yerbabuena, nel Pasadizo de San Ginés.",
+          "durationMinutes": 30,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Chocolatería San Ginés",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Chocolatería San Ginés, Pasadizo de San Ginés 5, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 3,
+            "notes": null
+          },
+          "notes": [
+            "Rientro in hotel a piedi in circa 10 minuti."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-22",
+      "dayNumber": 2,
+      "date": "2026-11-22",
+      "city": "Madrid",
+      "summary": "Rastro, Prado, pranzo al Barrio de las Letras, Retiro al tramonto, cena vegana a Malasaña",
+      "transferSummary": null,
+      "detailStatus": "transcribed",
+      "items": [
+        {
+          "id": "2026-11-22-partenza-hotel-rastro",
+          "time": "09:30",
+          "type": "transport",
+          "title": "Hotel → La Latina in metro",
+          "description": "Metro linea 5 da Gran Vía a La Latina, 3 fermate dirette.",
+          "durationMinutes": 15,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Metro La Latina",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Metro La Latina, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": null,
+          "notes": []
+        },
+        {
+          "id": "2026-11-22-el-rastro",
+          "time": "09:45",
+          "type": "market",
+          "title": "El Rastro",
+          "description": "Mercatino all'aperto della domenica mattina. Partire da Plaza de Cascorro e scendere per la Ribera de Curtidores.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "El Rastro, Plaza de Cascorro",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Plaza de Cascorro, El Rastro, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 5,
+            "notes": null
+          },
+          "notes": [
+            "Solo la domenica: è l'unica occasione del viaggio.",
+            "Dalle 11 molto affollato; attenzione ai borseggiatori."
+          ]
+        },
+        {
+          "id": "2026-11-22-museo-del-prado",
+          "time": "12:00",
+          "type": "visit",
+          "title": "Museo del Prado",
+          "description": "Biglietto prenotato per le 12:00. Tre ore circa: priorità alle opere ★★★ (vedi note).",
+          "durationMinutes": 180,
+          "cost": null,
+          "status": "confirmed",
+          "location": {
+            "name": "Museo del Prado",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Museo Nacional del Prado, Paseo del Prado, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 25,
+            "estimated": true,
+            "notes": "Uscire dal Rastro verso le 11:25 e attraversare Lavapiés / Huertas verso il Paseo del Prado. Alternativa: taxi."
+          },
+          "notes": [
+            "Percorso: prima il piano 1 (Velázquez) prima che arrivino i gruppi, poi scendere al piano 0. Chiedere la piantina gratuita all'ingresso: le sale possono cambiare.",
+            "★★★ Las Meninas — Velázquez (piano 1)",
+            "★★★ Il giardino delle delizie — Bosch (piano 0)",
+            "★★★ Pitture nere: Saturno, Il cane — Goya (piano 0)",
+            "★★★ Il 2 e il 3 maggio 1808 — Goya (piano 0)",
+            "★★ La maja desnuda / La maja vestida, La famiglia di Carlo IV — Goya (piano 1)",
+            "★★ Las hilanderas, La resa di Breda — Velázquez (piano 1)",
+            "★★ Il cavaliere con la mano sul petto — El Greco (piano 1)",
+            "★★ La deposizione — Van der Weyden (piano 0)",
+            "★ Carlo V a Mühlberg, Danae — Tiziano (piano 1)",
+            "★ Le tre Grazie — Rubens (piano 1)",
+            "★ Annunciazione — Beato Angelico (piano 0)",
+            "★ Autoritratto — Dürer (piano 0)",
+            "★ Il trionfo della morte — Bruegel il Vecchio (piano 0)",
+            "★ Tesoro del Delfino, oreficeria (seminterrato)",
+            "Mostra temporanea 'Rainer Maria Rilke y el arte español' (17/11/2026–7/3/2027): solo se avanza tempo."
+          ]
+        },
+        {
+          "id": "2026-11-22-pranzo-barrio-letras",
+          "time": "15:15",
+          "type": "meal",
+          "title": "Pranzo al Barrio de las Letras",
+          "description": "Zona di Calle de las Huertas e Plaza de Santa Ana, a pochi minuti dal Prado. A Madrid si pranza normalmente fino alle 16.",
+          "durationMinutes": 75,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Barrio de las Letras",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Plaza de Santa Ana, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 10,
+            "estimated": true,
+            "notes": null
+          },
+          "notes": [
+            "Tapas vegetariane facili da trovare ovunque: tortilla de patatas, patatas bravas, pimientos de Padrón, berenjenas con miel."
+          ]
+        },
+        {
+          "id": "2026-11-22-parque-del-retiro",
+          "time": "16:30",
+          "type": "visit",
+          "title": "Parque del Retiro: Palacio de Cristal, Palacio de Velázquez, Estanque",
+          "description": "Parco pubblico, ingresso libero. Il Palacio de Cristal è chiuso per restauro e coperto dall'opera 'Fardo' di Andrea Canepa (visibile fino al 1° gennaio 2027). Il vicino Palacio de Velázquez (Museo Reina Sofía) è aperto e gratuito, con la mostra di Fernando Sánchez Castillo fino all'8 marzo 2027. Poi l'Estanque Grande col monumento ad Alfonso XII.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Parque del Retiro",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Palacio de Cristal, Parque del Retiro, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 15,
+            "estimated": true,
+            "notes": null
+          },
+          "notes": [
+            "Tramonto verso le 17:50.",
+            "Orari dei padiglioni del Reina Sofía da verificare sul sito del museo."
+          ]
+        },
+        {
+          "id": "2026-11-22-rientro-hotel-domenica",
+          "time": "18:15",
+          "type": "transport",
+          "title": "Retiro → hotel",
+          "description": "Metro linea 2 da Retiro verso Sol, poi a piedi; in alternativa passeggiata di circa 30 minuti lungo Alcalá e Gran Vía.",
+          "durationMinutes": 25,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "7 Islas Hotel",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "7 Islas Hotel, Calle de Valverde 14, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "subway",
+            "durationMinutes": 25,
+            "line": "2",
+            "estimated": true,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-22-cena-vega-luna",
+          "time": "20:30",
+          "type": "meal",
+          "title": "Cena vegana: Vega (Calle de la Luna)",
+          "description": "Ristorante vegano pioniere di Malasaña, cucina casalinga con prodotti ecologici e vini e birre madrilene. Piccolo e accogliente, a circa 5 minuti a piedi dall'hotel. Fascia di prezzo indicativa 16–30 € a persona.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Vega",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Vega, Calle de la Luna 9, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 5,
+            "notes": null
+          },
+          "notes": [
+            "Orari da fonte web non recente (domenica orario continuato 13:30–24:00): verificare e prenotare.",
+            "Alternativa vicina: Pizzi & Dixie, pizza e pasta vegane a Malasaña."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23",
+      "dayNumber": 3,
+      "date": "2026-11-23",
+      "city": "Madrid",
+      "summary": "Palacio Real e Galería de las Colecciones Reales, La Latina, tramonto al Templo de Debod, Guernica, cena vegetariana a Chueca",
+      "transferSummary": null,
+      "detailStatus": "transcribed",
+      "items": [
+        {
+          "id": "2026-11-23-verso-palacio-real",
+          "time": "10:35",
+          "type": "transport",
+          "title": "Hotel → Palacio Real a piedi",
+          "description": "Passando per Plaza de Callao e Calle de Preciados o per Ópera.",
+          "durationMinutes": 15,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Plaza de la Armería",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Plaza de la Armería, Palacio Real, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": null,
+          "notes": []
+        },
+        {
+          "id": "2026-11-23-palacio-real",
+          "time": "11:00",
+          "type": "visit",
+          "title": "Palacio Real",
+          "description": "Ingresso prenotato alle 11:00. Il lunedì il palazzo è aperto 10:00–18:00 (ultimo accesso 17:00). Con il biglietto anche la Real Armería, in un edificio separato sulla stessa Plaza de la Armería.",
+          "durationMinutes": 120,
+          "cost": null,
+          "status": "confirmed",
+          "location": {
+            "name": "Palacio Real de Madrid",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Palacio Real de Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 15,
+            "notes": null
+          },
+          "notes": [
+            "Il palazzo può chiudere senza preavviso per atti ufficiali: controllare il sito di Patrimonio Nacional la mattina stessa."
+          ]
+        },
+        {
+          "id": "2026-11-23-galeria-colecciones-reales",
+          "time": "13:00",
+          "type": "visit",
+          "title": "Galería de las Colecciones Reales",
+          "description": "Museo scavato nella roccia tra il Palacio Real e la Catedral de la Almudena: arazzi, carrozze, dipinti e armature delle collezioni della Corona. Aperto lunedì–sabato 10:00–20:00.",
+          "durationMinutes": 75,
+          "cost": null,
+          "status": "uncertain",
+          "location": {
+            "name": "Galería de las Colecciones Reales",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Galería de las Colecciones Reales, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 5,
+            "notes": null
+          },
+          "notes": [
+            "Inclusa solo con il biglietto combinato (\"Royal District\" / Palacio + Galería): verificare il tipo di biglietto acquistato."
+          ]
+        },
+        {
+          "id": "2026-11-23-almudena-plaza-mayor",
+          "time": "14:15",
+          "type": "visit",
+          "title": "Catedral de la Almudena e Plaza Mayor",
+          "description": "Uno sguardo alla cattedrale di fronte al palazzo, poi Calle Mayor fino a Plaza Mayor.",
+          "durationMinutes": 30,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Plaza Mayor",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Plaza Mayor, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 10,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-23-pranzo-cava-baja",
+          "time": "14:45",
+          "type": "meal",
+          "title": "Pranzo e vermut a La Latina, Cava Baja",
+          "description": "Strada di taverne e tapas nel cuore di La Latina.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Calle de la Cava Baja",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Calle de la Cava Baja, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 10,
+            "notes": null
+          },
+          "notes": [
+            "Il lunedì alcuni locali sono chiusi: scegliere sul posto.",
+            "Opzioni vegetariane: tortilla de patatas, patatas bravas, pimientos de Padrón, huevos rotos senza jamón."
+          ]
+        },
+        {
+          "id": "2026-11-23-oriente-sabatini",
+          "time": "16:30",
+          "type": "visit",
+          "title": "Plaza de Oriente e Jardines de Sabatini",
+          "description": "Passeggiata in salita verso nord, sul fronte del Palacio Real.",
+          "durationMinutes": 40,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Jardines de Sabatini",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Jardines de Sabatini, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 20,
+            "estimated": true,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-23-templo-de-debod",
+          "time": "17:30",
+          "type": "visit",
+          "title": "Tramonto al Templo de Debod",
+          "description": "Tempio egizio nel Parque del Cuartel de la Montaña, con vista verso il Palacio Real e la Casa de Campo. Tramonto verso le 17:50.",
+          "durationMinutes": 45,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Templo de Debod",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Templo de Debod, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 10,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-23-reina-sofia-guernica",
+          "time": "19:00",
+          "type": "optional",
+          "title": "Museo Reina Sofía: Guernica (opzionale)",
+          "description": "Ingresso gratuito il lunedì 19:00–21:00. Il martedì il museo è chiuso, quindi è l'unica occasione. Bastano 45–60 minuti per il Guernica e le sale intorno.",
+          "durationMinutes": 60,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Museo Reina Sofía",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Museo Nacional Centro de Arte Reina Sofía, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "subway",
+            "durationMinutes": 30,
+            "line": "3 → 1",
+            "from": {
+              "name": "Plaza de España"
+            },
+            "to": {
+              "name": "Estación del Arte"
+            },
+            "estimated": true,
+            "notes": "Da Plaza de España linea 3 fino a Sol, poi linea 1 fino a Estación del Arte."
+          },
+          "notes": [
+            "Fascia gratuita molto richiesta: possibile coda o prenotazione online della fascia gratuita."
+          ]
+        },
+        {
+          "id": "2026-11-23-cena-la-hummuseria",
+          "time": "21:30",
+          "type": "meal",
+          "title": "Cena vegetariana: La Hummuseria",
+          "description": "Taverna vegetariana di cucina mediorientale a Chueca: hummus in tante versioni, falafel, insalate. Prezzi contenuti, a circa 5 minuti dall'hotel.",
+          "durationMinutes": 90,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "La Hummuseria",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "La Hummuseria, Calle de Hernán Cortés 8, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "subway",
+            "durationMinutes": 15,
+            "line": "1",
+            "from": {
+              "name": "Estación del Arte"
+            },
+            "to": {
+              "name": "Tribunal"
+            },
+            "estimated": true,
+            "notes": "Da Estación del Arte linea 1 diretta fino a Tribunal."
+          },
+          "notes": [
+            "Aperto anche il lunedì sera secondo le fonti web (cena 20:30–23:30 circa): prenotare.",
+            "Il lunedì molti ristoranti vegetariani del centro sono chiusi, tra cui Yerbabuena."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24",
+      "dayNumber": 4,
+      "date": "2026-11-24",
+      "city": "Madrid",
+      "summary": "Gran Vía e terrazza del Círculo de Bellas Artes, check-out e volo di rientro",
+      "transferSummary": "Madrid-Barajas → aereo → Milano Malpensa",
+      "detailStatus": "transcribed",
+      "items": [
+        {
+          "id": "2026-11-24-gran-via-circulo-bellas-artes",
+          "time": "10:00",
+          "type": "visit",
+          "title": "Gran Vía e terrazza del Círculo de Bellas Artes",
+          "description": "Ultima passeggiata su Gran Vía fino all'edificio Metrópolis; vista sui tetti dalla terrazza del Círculo de Bellas Artes, in Calle de Alcalá.",
+          "durationMinutes": 75,
+          "cost": null,
+          "status": "uncertain",
+          "location": {
+            "name": "Círculo de Bellas Artes",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Azotea Círculo de Bellas Artes, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": null,
+          "notes": [
+            "Ingresso alla terrazza a pagamento; orari di apertura mattutina da verificare."
+          ]
+        },
+        {
+          "id": "2026-11-24-check-out-hotel",
+          "time": "11:45",
+          "type": "hotel",
+          "title": "Check-out 7 Islas Hotel",
+          "description": "Check-out entro le 12:00; ritirare i trolley.",
+          "durationMinutes": 15,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "7 Islas Hotel",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "7 Islas Hotel, Calle de Valverde 14, Madrid",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "walk",
+            "durationMinutes": 15,
+            "notes": null
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-24-hotel-aeroporto",
+          "time": "12:30",
+          "type": "transport",
+          "title": "Hotel → Aeroporto Madrid-Barajas T2",
+          "description": "Arrivare al T2 entro le 13:30. Con check-in online e solo bagaglio a mano si va direttamente ai controlli.",
+          "durationMinutes": 40,
+          "cost": null,
+          "status": "transcribed",
+          "location": {
+            "name": "Aeroporto di Madrid-Barajas Terminal 2",
+            "city": "Madrid",
+            "country": "Spagna",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Aeropuerto Adolfo Suárez Madrid-Barajas Terminal 2",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": {
+            "mode": "subway",
+            "durationMinutes": 40,
+            "line": "10 → 8",
+            "from": {
+              "name": "Tribunal"
+            },
+            "to": {
+              "name": "Aeropuerto T1-T2-T3"
+            },
+            "estimated": true,
+            "notes": "Da Tribunal linea 10 fino a Nuevos Ministerios, poi linea 8 fino all'aeroporto. Supplemento aeroporto sul biglietto."
+          },
+          "notes": []
+        },
+        {
+          "id": "2026-11-24-volo-mad-mxp",
+          "time": "15:05",
+          "type": "transport",
+          "title": "Volo Air Europa UX1061 Madrid → Milano Malpensa",
+          "description": "Partenza da Madrid-Barajas T2, arrivo a Malpensa T1 alle 17:20.",
+          "durationMinutes": 135,
+          "cost": null,
+          "status": "confirmed",
+          "location": {
+            "name": "Aeroporto di Milano Malpensa Terminal 1",
+            "city": "Ferno",
+            "country": "Italia",
+            "latitude": null,
+            "longitude": null,
+            "googleMapsQuery": "Aeroporto Milano Malpensa Terminal 1",
+            "naverMapsUrl": null,
+            "verificationStatus": "unverified"
+          },
+          "transferFromPrevious": null,
+          "notes": []
+        }
+      ]
+    }
+  ]
+}
